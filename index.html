@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="style/estilo.css">
+    <script defer src="https://app.embed.im/snow.js"></script>
+    <link rel="shortcut icon" href="img/logotipo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  </head>
+  <body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">CARLOS</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">QUIEN SOY?</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">MIS SKILLS</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+    
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/perfil.png" alt="">
+            </div>
+            <h1>CARLOS MENDOZA</h1>
+            <h2>Estudiante de Desarrollo de Sistemas en el Instituto IDAT 📚📚</h2>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí 💁‍♂️</h2>
+            <p><span>Buenas Que tal, soy Carlos Mendoza Capcha tengo 24 años, vivo en lima y soy un estudiante de la carrea de Desarrollo de Sistemas del Instituto "IDAT",espero les guste el contenido de mi pagina, Gracias.</span>
+            </p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3 align="center">🔍Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>🐣Fecha de Nacimiento</strong>
+                            27-07-1999
+                        </li>
+                        <li>
+                            <strong>📞Teléfono</strong>
+                            +51 918627211
+                        </li>
+                        <li>
+                            <strong>✉️Email</strong>
+                            farewell2150@gmail.com
+                        </li>
+                        <li>
+                            <strong>🌎Dirección</strong>
+                            Ate - Lima - Peru
+                        </li>
+                        
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3 align="center">Mi Canal</h3>
+                    <img  src="img/logotipo.png" alt="" class="w-50">
+
+                </div>
+                <div class="col">
+                    <h3 align="center">Pasatiempos</h3>
+                    <ul>
+                        <li>
+                            <strong align="right">videojuegos</strong>
+                        </li>
+                        <li>
+                            <strong align="right">Musica</strong>
+                        </li>
+                        <li>
+                            <strong align="right">Ver Series</strong>
+                        </li>
+                        <li>
+                            <strong align="right">Viajar</strong>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Frond end</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>45%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>97%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Jquery</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>25%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Back end</h3>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Java</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <h3>Data Base</h3>
+                    <div class="skill">
+                        <span>Mysql</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Sql</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Sql Server</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Oracle</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTAFOLIO📖</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <a href="proyectos/bootstrap/index.html">
+                        <img src="img/Bootstrap.jpeg" alt="">
+                            <div class="overlay">
+                                <h3 class="text-white">Bootstrap</h3>
+                            </div>
+                    </a>
+                </div>
+
+                <div class="proyecto">
+                    <a href="proyectos/Pets/index (2).html">
+                        <img src="img/pets.jpeg" alt="">
+                            <div class="overlay">
+                                <h3 class="text-white">Pets</h3>
+                            </div>
+                    </a>
+                </div>
+
+                <div class="proyecto">
+                    <a href="proyectos/desarrollo web/index.html">
+                        <img src="img/desarrollo web.jpeg" alt="">
+                            <div class="overlay">
+                                <h3 class="text-white">Website</h3>
+                            </div>
+                    </a>
+                </div>
+
+                <div class="proyecto">
+                    <a href="proyectos/Libros/index.html">
+                        <img src="img/libros.jpeg" alt="">
+                            <div class="overlay">
+                                <h3 class="text-white">Libros</h3>
+                            </div>
+                    </a>
+                </div>
+
+                <div class="proyecto">
+                    <a href="proyectos/mi peru/index.html">
+                        <img src="img/mi peru.jpeg" alt="">
+                            <div class="overlay">
+                                <h3 class="text-white">Mi Peru</h3>
+                            </div>
+                    </a>
+                </div>
+
+                <div class="proyecto">
+                    <a href="proyectos/Clinica/index.html">
+                        <img src="img/dental.jpeg" alt="">
+                            <div class="overlay">
+                                <h3 class="text-white">Clinica</h3>
+                            </div>
+                    </a>
+                </div>
+
+                <div class="proyecto">
+                    <a href="proyectos/academia/index.html">
+                        <img src="img/academia.jpeg" alt="">
+                            <div class="overlay">
+                                <h3 class="text-white">Academia</h3>
+                            </div>
+                    </a>
+                </div>
+
+                <div class="proyecto">
+                    <a href="proyectos/Spa/index.html">
+                        <img src="img/spa.jpeg" alt="">
+                            <div class="overlay">
+                                <h3 class="text-white">Spa</h3>
+                            </div>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <a href="https://servsyko2150.000webhostapp.com/index.html">
+                        <img src="img/servicios.jpeg" alt="">
+                            <div class="overlay">
+                                <h3 class="text-white">Servicio de Turismo</h3>
+                            </div>
+                    </a>
+                </div>
+        </div>
+    </div>
+</section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Direcion: Ate, lima, Peru
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Numero : +51 918627211
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Correo educativo: a1610472@edu.idat.pe
+                                
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Email: farewell2150@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col">
+                    
+                    <button>
+                        Mas informacion ...<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+</html>
